@@ -32,7 +32,7 @@
 
 header{
     width: 100%;
-    height: 14vh;
+    height: 16vh;
     background-color: var(--preto);
 }
 
@@ -47,5 +47,29 @@ ul li{
 svg{
     margin-left: 50px;
 }
+
+.logo{
+    width: 145px;
+    margin-left: 3em;
+}
+
+.input-search{
+    margin-top: 33px; 
+    width: 450px; 
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px; 
+    padding-bottom: 3px;
+    transition: .3s;
+    margin-left: 4em;
+}
+
+.input-search:focus{
+    transform: scale(1.09);
+}
+
+
+
 
 /* Header Style End */
