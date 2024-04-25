@@ -38,7 +38,7 @@ header{
 
 .menu {
     position: fixed;
-    top: 20px;
+    top: 42px;
     left: 20px;
     z-index: 9999;
 }
@@ -67,18 +67,12 @@ header{
     top: 120px;
     cursor: pointer;
     text-align: center;
+    transition: .3s;
 }
 
 .sidebar ul li:hover {
     background-color: #555;
 }
-
-.sidebar svg{
-    margin: 5%;
-    width: 20px !important;
-    height: auto;
-}
-
 
 li{
     list-style: none;
@@ -88,9 +82,29 @@ ul li{
     font-family: "Montserrat", sans-serif;
 }
 
-svg{
-    margin-left: 50px;
+.bi{
     cursor: pointer;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+    color: var(--amarelo);
+}
+
+.bi-headset,
+.bi-heart-fill,
+.bi-cart-fill {
+    margin: 40px;
+    font-size: 30px;
+}
+
+
+.bi-list{
+    font-size: 45px;
+    color: var(--amarelo);
 }
 
 .logo{
@@ -98,6 +112,12 @@ svg{
     margin-left: 3em;
     position: absolute;
     top: 0;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover{
+    transform: scale(1.09);
+    cursor: pointer;
 }
 
 .input-search{

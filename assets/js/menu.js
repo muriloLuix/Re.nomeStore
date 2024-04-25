@@ -1,4 +1,4 @@
-document.getElementById('menuIcon').addEventListener('click', function() {
+document.querySelector('.bi-list').addEventListener('click', function() {
     let sidebar = document.getElementById('sidebar');
     if (sidebar.style.left === '-250px') {
         sidebar.style.left = '0';
