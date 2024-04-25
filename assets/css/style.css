@@ -36,6 +36,50 @@ header{
     background-color: var(--preto);
 }
 
+.menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 9999;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    transition: left 0.3s ease-in-out; 
+    z-index: 9998;
+    color: white;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    position: relative;
+    top: 120px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.sidebar ul li:hover {
+    background-color: #555;
+}
+
+.sidebar svg{
+    margin: 5%;
+    width: 20px !important;
+    height: auto;
+}
+
+
 li{
     list-style: none;
 }
@@ -46,14 +90,21 @@ ul li{
 
 svg{
     margin-left: 50px;
+    cursor: pointer;
 }
 
 .logo{
     width: 145px;
     margin-left: 3em;
+    position: absolute;
+    top: 0;
 }
 
 .input-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
     margin-top: 33px; 
     width: 450px; 
     height: 40px;
@@ -63,10 +114,18 @@ svg{
     padding-bottom: 3px;
     transition: .3s;
     margin-left: 4em;
+    font-family: "Montserrat", sans-serif;
+}
+
+.input{
+    margin-left: 36%;
 }
 
 .input-search:focus{
     transform: scale(1.09);
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transition: .3s;
 }
 
 
