@@ -11,7 +11,9 @@
         crossorigin="anonymous"></script>
     <!-- Bootstrap Icons -->
     <link rel="shortcut icon" href="assets/imgs/favicon.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="assets/js/menu.js" defer></script>
+    <script src="assets/js/dropdown.js" defer></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Re.nome Store</title>
 </head>
@@ -36,12 +38,13 @@
                     <img class="logo" src="assets/imgs/logo.png" alt="logo">
                     <div class="input">
                         <div class="input-container">
-                            <input type="text" name="input-search" id="input-search" class="input-search" placeholder="Busque aqui seu produto">
+                            <input type="text" name="input-search" id="input-search" class="input-search"
+                                placeholder="Busque aqui seu produto">
                             <img class="newlogo" src="assets/imgs/favicon.png" alt="Logo">
                         </div>
                     </div>
                 </div>
-                
+
             </div>
             <div class="icons">
                 <nav>
@@ -55,8 +58,45 @@
         </div>
     </header>
     <section class="downHeader">
-
+        <nav class="nav">
+            <ul class="ul">
+                <li>
+                    <div class="dropdown-toggle">Departamento <span class="arrow">&#9660;</span></div>
+                    <ul class="dropdown">
+                        <li class="has-submenu">
+                            <a href="#">Hardware<span class="submenu-arrow">&#9654;</span></a>
+                            <ul class="submenu">
+                                <li><a href="#">Coolers</a></li>
+                                <li><a href="#">Dísco Rígido (hd)</a></li>
+                                <li><a href="#">Drivers</a></li>
+                                <li><a href="#">Fontes</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Periféricos</a></li>
+                        <li><a href="#">Computadores</a></li>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Celular & Smartphone</a></li>
+                        <li><a href="#">TV</a></li>
+                        <li><a href="#">Áudio</a></li>
+                        <li><a href="#">Projetores</a></li>
+                        <li><a href="#">Espaço Gamer</a></li>
+                        <li><a href="#">Escritório</a></li>
+                        <li><a href="#">Casa Inteligente</a></li>
+                        <li><a href="#">Tablets, Ipads e E-readers</a></li>
+                        <li><a href="#">Câmeras e Drones</a></li>
+                        <li><a href="#">Energia</a></li>
+                        <li><a href="#">Conectividade</a></li>
+                    </ul>
+                </li>
+                <li>
+                    Oferta do dia
+                </li>
+                <li>Cupons
+                </li>
+            </ul>
+        </nav>
     </section>
+
     <main>
 
     </main>
