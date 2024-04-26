@@ -107,11 +107,16 @@ ul li{
     color: var(--amarelo);
 }
 
+.container {
+    position: relative;
+    display: inline-block; 
+}
+
 .logo{
     width: 145px;
     margin-left: 3em;
     position: absolute;
-    top: 0;
+    top: -16px;
     transition: transform 0.3s ease;
 }
 
@@ -120,17 +125,16 @@ ul li{
     cursor: pointer;
 }
 
-.input-search{
+.input-search {
     display: flex;
     align-items: center;
     justify-content: center;
-    align-items: center;
-    margin-top: 33px; 
-    width: 450px; 
+    margin-top: 33px;
+    width: 450px;
     height: 40px;
     border: none;
     border-radius: 10px;
-    padding-left: 10px; 
+    padding-left: 10px;
     padding-bottom: 3px;
     transition: .3s;
     margin-left: 4em;
@@ -142,13 +146,24 @@ ul li{
 }
 
 .input-search:focus{
-    transform: scale(1.09);
     outline: none;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     transition: .3s;
 }
 
-
-
-
+.newlogo {
+    position: absolute;
+    top: 16px;
+    right: -214px;
+    margin: 5px;
+    width: 45px;
+    height: auto;
+}
 /* Header Style End */
+
+
+.downHeader{
+    background-color: var(--amarelo);
+    width: 100%;
+    height: 3vh;
+}
