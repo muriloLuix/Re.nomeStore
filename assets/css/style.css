@@ -16,7 +16,30 @@
 :root {
     --preto: #141615;
     --amarelo: #F8A928;
+    --amarelo-claro: #f1af45;
 }
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #000;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--amarelo);
+    transition: 0.3s;
+    border-radius: 20px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--amarelo-claro);
+  }
+  
+  ::-webkit-scrollbar-thumb:focus {
+    border-radius: 20px;
+  }
 
 /* General Style End  */
 
@@ -37,7 +60,7 @@ header {
 }
 
 .menu {
-    position: fixed;
+    position: absolute;
     top: 42px;
     left: 20px;
     z-index: 9999;
@@ -258,4 +281,27 @@ ul li {
 .submenu-arrow {
     margin-left: 5px;
     font-size: 0.8em;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.6%;
+}
+
+.login i{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.login p{
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Main Style */
+
+main{
+    background-color: #FFFFF0;
+    height: 100vh;
 }
