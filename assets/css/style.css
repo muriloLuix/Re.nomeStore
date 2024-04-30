@@ -312,7 +312,7 @@ ul li {
 
 /* Main Style */
 
-.backgroundMain{
+.backgroundMain {
     background-color: var(--preto);
     width: 85vw;
     height: 100vh;
@@ -320,17 +320,28 @@ ul li {
 }
 
 @keyframes changeBackground {
-    0% { background-color: #FFFFF0; }
-    33.33% { background-color: #141615; }
-    66.66% { background-color: #F8A928; }
-    100% { background-color: #FFFFF0; }
-  }
-  
-  main {
+    0% {
+        background-color: #FFFFF0;
+    }
+
+    33.33% {
+        background-color: #141615;
+    }
+
+    66.66% {
+        background-color: #F8A928;
+    }
+
+    100% {
+        background-color: #FFFFF0;
+    }
+}
+
+main {
     height: 100vh !important;
     animation: changeBackground 30s infinite;
-  }
-  
+}
+
 
 .containerCard {
     display: flex;
