@@ -321,11 +321,24 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 4%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -15px;
 }
 
 .container-fluid {
     max-width: 1400px;
 
+}
+
+.col-md-4 {
+    padding: 0 15px;
 }
 
 .card {
@@ -351,9 +364,9 @@ main {
 }
 
 .card h5 a {
-  color: black;
-  text-decoration: none;
-} 
+    color: black;
+    text-decoration: none;
+}
 
 .card-img-top {
     width: 100%;
@@ -422,6 +435,7 @@ main {
     -webkit-backdrop-filter: blur(0.0px);
     border-radius: 10px;
 }
+
 .bold-btn {
 
     font-size: 1rem;
@@ -429,6 +443,7 @@ main {
     text-transform: uppercase;
     padding: 5px 50px 5px 50px;
 }
+
 .box .btn {
     font-size: 1.5rem;
 }
@@ -438,6 +453,7 @@ main {
         padding: 5px 40px 5px 40px;
     }
 }
+
 @media (max-width: 250px) {
     .btn {
         padding: 5px 30px 5px 30px;
@@ -455,19 +471,24 @@ main {
     /* box-shadow: -1px 6px 19px rgba(247, 129, 10, 0.25); */
     border-radius: 100px;
 }
+
 .btn-warning:hover {
     background: var(--btnbghover);
     color: var(--btnfontcolorhover);
     /* box-shadow: -1px 6px 13px rgba(255, 150, 43, 0.35); */
 }
-.btn-check:focus + .btn-warning, .btn-warning:focus {
+
+.btn-check:focus+.btn-warning,
+.btn-warning:focus {
     background: var(--btnbghover);
     color: var(--btnfontcolorhover);
     /* box-shadow: -1px 6px 13px rgba(255, 150, 43, 0.35); */
 }
+
 .btn-warning:active:focus {
     box-shadow: 0 0 0 0.25rem var(--btnactivefs);
 }
+
 .btn-warning:active {
     background: var(--btnbghover);
     color: var(--btnfontcolorhover);
@@ -478,9 +499,10 @@ main {
 
 .bg-success {
     font-size: 1rem;
-    background-color: var(--btnbg)!important;
-    color: var(--btnfontcolor)!important;
+    background-color: var(--btnbg) !important;
+    color: var(--btnfontcolor) !important;
 }
+
 .bg-danger {
     font-size: 1rem;
 }
@@ -504,8 +526,9 @@ main {
 }
 
 .fa-heart:before {
-    color:crimson;
+    color: crimson;
 }
+
 .fa-chevron-circle-right:before {
     color: darkgray;
 }
@@ -520,44 +543,44 @@ main {
 }
 
 .card-ecommerce {
-  border: 1px solid #e2e2e2;
-  border-radius: 10px;
-  padding: 0 0 1rem 0;
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+    padding: 0 0 1rem 0;
 }
 
 .card-ecommerce:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  left: 0;
-  border: 2px solid #059;
-  border-radius: 10px;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  -ms-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.2s ease-in-out 0s;
-  -o-transition: all 0.2s ease-in-out 0s;
-  transition: all 0.2s ease-in-out 0s;
-  z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    border: 2px solid #059;
+    border-radius: 10px;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+    z-index: -1;
 }
 
 .card-ecommerce:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  -ms-transform: scaleX(1);
-  transform: scaleX(1);
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
 }
 
-.card-body-cascade a{
-  color: #0f4a79;
-  font-size: 17px;
-  font-weight: bold;
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
+.card-body-cascade a {
+    color: #0f4a79;
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
 }
 
 .card-body-cascade {
@@ -565,9 +588,9 @@ main {
 }
 
 .card-body-cascade .price {
-  color: #059;
-  font-size: 18px;
-  font-weight: 500;
+    color: #059;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .card-ecommerce .btn {
@@ -582,31 +605,31 @@ main {
 }
 
 .card-ecommerce .add-to-card {
-  color: #fff;
-  border: 1px solid #059;
-  background-color: #059;
-  text-transform: uppercase;
-  padding: 14px 10px;
-  border-radius: 6px;
-  font-weight: bold;
+    color: #fff;
+    border: 1px solid #059;
+    background-color: #059;
+    text-transform: uppercase;
+    padding: 14px 10px;
+    border-radius: 6px;
+    font-weight: bold;
 }
 
 .card-ecommerce .view-btn {
-  color: #059;
-  border: 2px solid #059;
-  text-transform: uppercase;
-  padding: 13px 10px;
-  border-radius: 6px;
-  font-weight: bold;
+    color: #059;
+    border: 2px solid #059;
+    text-transform: uppercase;
+    padding: 13px 10px;
+    border-radius: 6px;
+    font-weight: bold;
 }
 
 .stock-details {
-  font-size: 12px;
-  color: #9e9e9e;
-  text-transform: uppercase;
-  margin-left: 0.8rem;
+    font-size: 12px;
+    color: #9e9e9e;
+    text-transform: uppercase;
+    margin-left: 0.8rem;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
