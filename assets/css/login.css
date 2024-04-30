@@ -59,6 +59,7 @@
     display: table;
     position: relative;
     box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+    border-radius: 15px;
 }
 
 .veen>div {
@@ -119,6 +120,7 @@
     transition: all .5s;
     color: #303030;
     overflow: hidden;
+    border-radius: 15px;
 }
 
 .veen .wrapper>form {
@@ -200,6 +202,10 @@
 
 .veen>.wrapper.move input:focus {
     border-color: #e0b722;
+}
+
+.veen>div{
+    border-top-right-radius: 15px !important;  
 }
 
 .logo {
