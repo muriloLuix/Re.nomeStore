@@ -312,10 +312,25 @@ ul li {
 
 /* Main Style */
 
-main {
-    background-color: #FFFFF0;
+.backgroundMain{
+    background-color: var(--preto);
+    width: 85vw;
     height: 100vh;
+    margin: 0 auto
 }
+
+@keyframes changeBackground {
+    0% { background-color: #FFFFF0; }
+    33.33% { background-color: #141615; }
+    66.66% { background-color: #F8A928; }
+    100% { background-color: #FFFFF0; }
+  }
+  
+  main {
+    height: 100vh !important;
+    animation: changeBackground 30s infinite;
+  }
+  
 
 .containerCard {
     display: flex;
@@ -329,7 +344,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 -15px;
+    margin: 6px -15px;
+    padding: 5px;
 }
 
 .container-fluid {
@@ -536,7 +552,7 @@ main {
 
 
 .card-ecommerce .card-img-top {
-    width: 85%;
+    width: 100%;
     padding: 95px 45px 40px;
     max-width: 100%;
     height: auto;
@@ -555,7 +571,7 @@ main {
     height: 100%;
     bottom: 0;
     left: 0;
-    border: 2px solid #059;
+    border: 2px solid var(--preto);
     border-radius: 10px;
     visibility: hidden;
     -webkit-transform: scaleX(0);
@@ -621,6 +637,7 @@ main {
     padding: 13px 10px;
     border-radius: 6px;
     font-weight: bold;
+    margin: 0px 7px;
 }
 
 .stock-details {
