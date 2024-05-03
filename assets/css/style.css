@@ -15,6 +15,10 @@
     box-sizing: border-box;
 }
 
+.dropdown-toggle::after{
+    display: none;
+}
+
 /* General Style  */
 
 :root {
@@ -195,15 +199,25 @@ ul li {
 .downHeader {
     background-color: var(--amarelo);
     width: 100%;
-    height: 3.4vh;
+    height: 3.9vh;
     display: flex;
     justify-content: center;
+    align-items: center; 
 }
 
-.nav .ul {
+.nav {
     display: flex;
+    justify-content: center;
     list-style-type: none;
     padding: 0;
+}
+
+.ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0; 
 }
 
 .nav .ul li {
@@ -213,6 +227,8 @@ ul li {
     border-radius: 8px;
     text-transform: uppercase;
     font-weight: 600;
+    max-height: 36px;
+    height: 36px;
 }
 
 .nav .ul li:hover {
@@ -259,7 +275,9 @@ ul li {
 
 .open {
     display: block;
+    z-index: 999999;
 }
+
 
 /* Estilo para submenu */
 .submenu {
@@ -542,6 +560,11 @@ main {
     color: darkgray;
 }
 
+.price{
+    text-align: center;
+    font-weight: 600 !important;
+}
+
 .amz-hp {
     font-size: .7rem;
     font-weight: 600;
@@ -607,7 +630,7 @@ main {
     font-size: 17px;
     font-weight: bold;
     display: inline-block;
-    width: 100%;
+    margin-left: 1.5%;
     overflow: hidden;
 }
 
@@ -619,6 +642,7 @@ main {
     color: #059;
     font-size: 18px;
     font-weight: 500;
+    display: flex;
 }
 
 .card-ecommerce .btn {
@@ -640,6 +664,7 @@ main {
     padding: 14px 10px;
     border-radius: 6px;
     font-weight: bold;
+    width: 119% !important;
 }
 
 .card-ecommerce .view-btn {
