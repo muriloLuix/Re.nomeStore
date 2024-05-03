@@ -51,6 +51,8 @@
     color: #fff;
     font-family: var(--montserrat);
     letter-spacing: 2px;
+    text-align: justify;
+    max-width: 98%;
 }
 
 .value {
@@ -93,4 +95,44 @@
 .accordion-button:not(.collapsed){
     background-color: var(--preto);
     color: #fff;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.buy{
+    width: 98%;
+    max-width: 98%;
+    padding: 1.5%;
+    outline: 0px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: var(--montserrat);
+    font-weight: 700;
+    background-color: var(--preto);
+    color: #fff;
+    transition: all .3s ease;
+    border: 1px outset #fff;
+}
+
+.buy:hover:hover {
+    box-shadow: rgba(40, 167, 69, 0.1) 0px 54px 55px, rgba(40, 167, 69, 0.08) 0px -12px 30px, rgba(40, 167, 69, 0.08) 0px 4px 6px, rgba(40, 167, 69, 0.12) 0px 12px 13px, rgba(40, 167, 69, 0.06) 0px -3px 5px;
+    transform: scale(1.06);
+}
+
+.fa-cart-plus{
+    margin-left: 2%;
+}
+
+.carousel{
+    width: 41%;
+}
+
+.zoomable-img:hover {
+    cursor: zoom-in; 
+    transition: transform 0.5s ease;
 }
