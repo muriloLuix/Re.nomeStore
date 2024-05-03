@@ -85,3 +85,12 @@
     background-color: var(--preto);
     color: #fff;
 }
+
+.accordion-flush>.accordion-item{
+    border: 1px solid #fff !important;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: var(--preto);
+    color: #fff;
+}
