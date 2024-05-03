@@ -563,6 +563,7 @@ main {
 .price{
     text-align: center;
     font-weight: 600 !important;
+    margin-left: .2em;
 }
 
 .amz-hp {
@@ -630,7 +631,7 @@ main {
     font-size: 17px;
     font-weight: bold;
     display: inline-block;
-    margin-left: .7%;
+    margin-left: .2em;
     overflow: hidden;
 }
 
