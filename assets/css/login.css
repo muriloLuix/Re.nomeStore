@@ -27,6 +27,7 @@
     --preto: #141615;
     --amarelo: #F8A928;
     --amarelo-claro: #f1af45;
+    --montserrat: "Montserrat", sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -157,7 +158,7 @@
 
 .veen .wrapper>form>div {
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
 }
 
 .veen .wrapper label {
@@ -291,4 +292,16 @@ input:-webkit-autofill,
 textarea:-webkit-autofill,
 select:-webkit-autofill {
     box-shadow: inset 0 0 0 50px #fff
+}
+
+.passwordRemember {
+    font-family: var(--montserrat);
+    color: #505050;
+    text-decoration: none !important;
+    transition: all .3s ease;
+    border-bottom: 1px solid black;
+}
+
+.passwordRemember:hover {
+    transform: scale(1.05);
 }

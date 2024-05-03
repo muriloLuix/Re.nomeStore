@@ -15,7 +15,7 @@
     box-sizing: border-box;
 }
 
-.dropdown-toggle::after{
+.dropdown-toggle::after {
     display: none;
 }
 
@@ -202,7 +202,7 @@ ul li {
     height: 3.9vh;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .nav {
@@ -217,7 +217,7 @@ ul li {
     align-items: center;
     justify-content: center;
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
 
 .nav .ul li {
@@ -318,6 +318,27 @@ ul li {
 .login i {
     font-size: 30px;
     margin: 10px;
+}
+
+@media (max-width :1510px) {
+    .login {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .login i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width :1400px) {
+    .login {
+        margin-left: 8em;
+    }
 }
 
 .login a {
@@ -560,7 +581,7 @@ main {
     color: darkgray;
 }
 
-.price{
+.price {
     text-align: center;
     font-weight: 600 !important;
     margin-left: .2em;
@@ -688,4 +709,57 @@ main {
 
 a {
     text-decoration: none;
+}
+
+.cellphone {
+    display: none;
+}
+
+@media (max-width :1342px) {
+
+
+    header {
+        height: 30vh;
+    }
+
+    .menu {
+        top: 16px;
+        left: 5px;
+    }
+
+    .logo {
+        width: 104px;
+        top: -6px;
+        margin-left: 15em;
+    }
+
+    .input-search {
+        display: none;
+    }
+
+    .cellphone {
+        display: flex;
+        margin-left: 0;
+        margin-top: 7em;
+        width: 326px;
+        max-width: 326px;
+    }
+
+    .login{
+        display: none;
+    }
+    
+    .newlogo{
+        top: 96px;
+        right: -330px;
+    }
+
+    .container{
+        width: 0;
+    }
+
+    .icons {
+         display: none;
+    }
+    
 }
