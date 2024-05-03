@@ -719,7 +719,8 @@ a {
 
 
     header {
-        height: 30vh;
+        height: 26vh;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     }
 
     .menu {
@@ -730,7 +731,8 @@ a {
     .logo {
         width: 104px;
         top: -6px;
-        margin-left: 15em;
+        margin-left: 7.5em;
+        margin-top: .4em;
     }
 
     .input-search {
@@ -745,21 +747,40 @@ a {
         max-width: 326px;
     }
 
-    .login{
+    .login {
         display: none;
     }
-    
-    .newlogo{
+
+    .newlogo {
         top: 96px;
         right: -330px;
     }
 
-    .container{
+    .container {
         width: 0;
     }
 
     .icons {
-         display: none;
+        display: flex;
+        margin-bottom: 2.9em;
+        width: 20%;
+        margin-top: .4em;
     }
-    
+
+    .icons i{
+        font-size: 25px;
+    }
+
+    .downHeader {
+        display: none;
+    }
+
+    .bi-heart-fill{
+        display: none;
+    }
+
+    .bi-headset, .bi-heart-fill, .bi-cart-fill{
+        margin: 5px;
+    }
+
 }
