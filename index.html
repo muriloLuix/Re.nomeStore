@@ -18,6 +18,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
     <script src="assets/js/menu.js" defer></script>
     <script src="assets/js/dropdown.js" defer></script>
+    <script src="assets/js/filter.js" defer></script>
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
@@ -116,6 +117,28 @@
 
     <main>
         <section class="backgroundMain">
+            <section class="filter">
+                <i class="bi bi-funnel"></i>
+                <h1>Ordenar por:</h1>
+                <select name="filterPrice" id="filterPrice">
+                    <option value="precoCrecente">Preço Crescente</option>
+                    <option value="precoDecrescente">Preço Decrescente</option>
+                    <option value="maisAvaliados">Mais Avaliados</option>
+                    <option value="maisProcurados">Mais Procurados</option>
+                    <option value="promocoes">Promoções</option>
+                </select>
+                <select name="filterView" id="filterView">
+                    <option value="10">10 por página</option>
+                    <option value="20">20 por página</option>
+                    <option value="40">40 por página</option>
+                    <option value="60">60 por página</option>
+                    <option value="80">80 por página</option>
+                    <option value="100">100 por página</option>
+                </select>
+                <button class="btnFilter"><i class="bi bi-x-lg"></i></button>
+            </section>
+            
+            
             <div class="containerCard">
                 <div class="row text-center">
                     <div class="col-md-4 col-lg-4 col-xl-4 col-12 col-sm-6">

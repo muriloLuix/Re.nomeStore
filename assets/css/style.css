@@ -377,6 +377,52 @@ ul li {
     }
 }
 
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    padding: 2%;
+}
+
+.filter .bi-funnel{
+    color: var(--amarelo);
+    margin-right: .5%;
+    font-size: 1rem;
+    margin-bottom: .4%;
+}
+
+.filter h1 {
+    color: #fff;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+#filterPrice, #filterView {
+    padding: 0.5rem;
+    border-radius: 10px;
+    outline: none;
+    margin-right: 1rem;
+}
+
+.btnFilter {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--amarelo);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    transition: all .3s ease;
+    text-transform: uppercase;
+}
+
+.btnFilter:hover {
+    background-color: red;
+    transform: scale(1.05);
+}
+
+
 main {
     height: 100vh !important;
     animation: changeBackground 30s infinite;
@@ -395,7 +441,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 6px -15px;
+    margin: 0 auto;
     padding: 5px;
 }
 
