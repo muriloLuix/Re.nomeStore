@@ -1,361 +1,423 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> | Re.nome Store</title>
-    <link rel="shortcut icon" href="assets/imgs/favicon.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>| Re.nome Store</title>
+    <link
+      rel="shortcut icon"
+      href="assets/imgs/favicon.png"
+      type="image/x-icon"
+    />
     <!-- Bootstrap CSS e JS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <!-- Bootstrap Icons -->
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
     <script src="assets/js/menu.js" defer></script>
     <script src="assets/js/dropdown.js" defer></script>
     <script src="assets/js/filter.js" defer></script>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <div class="container_header">
-            <div>
-                <div id="menu" class="menu">
-                    <i class="bi-list bi "></i>
-                </div>
-                <div id="sidebar" class="sidebar">
-                    <ul>
-                        <li><i class="bi bi-person"></i> Minha conta</li>
-                        <li><i class="bi bi-person-check"></i> Meus dados</li>
-                        <li><i class="bi bi-bag-check"></i> Meus pedidos</li>
-                        <li><i class="bi bi-star"></i> Avaliações</li>
-                        <li class><i class="bi bi-heart"></i> Favoritos</li>
-                    </ul>
-                </div>
-                <div class="container">
-                    <img class="logo" src="assets/imgs/logo.png" alt="logo">
-                    <div class="input">
-                        <div class="input-container">
-                            <input type="text" name="input-search" id="input-search" class="input-search"
-                                placeholder="Busque aqui seu produto">
-                            <img class="newlogo" src="assets/imgs/favicon.png" alt="Logo">
-                        </div>
-                    </div>
-                    <div class="input-container">
-                        <input type="text" name="input-search cellphone" id="input-search cellphone"
-                            class="input-search cellphone" placeholder="Busque aqui seu produto">
-                        <img class="newlogo" src="assets/imgs/favicon.png" alt="Logo">
-                    </div>
-                </div>
+      <div class="container_header">
+        <div>
+          <div id="menu" class="menu">
+            <i class="bi-list bi"></i>
+          </div>
+          <div id="sidebar" class="sidebar">
+            <ul>
+              <li><i class="bi bi-person"></i> Minha conta</li>
+              <li><i class="bi bi-person-check"></i> Meus dados</li>
+              <li><i class="bi bi-bag-check"></i> Meus pedidos</li>
+              <li><i class="bi bi-star"></i> Avaliações</li>
+              <li class><i class="bi bi-heart"></i> Favoritos</li>
+            </ul>
+          </div>
+          <div class="container">
+            <img class="logo" src="assets/imgs/logo.png" alt="logo" />
+            <div class="input">
+              <div class="input-container">
+                <input
+                  type="text"
+                  name="input-search"
+                  id="input-search"
+                  class="input-search"
+                  placeholder="Busque aqui seu produto"
+                />
+                <img class="newlogo" src="assets/imgs/favicon.png" alt="Logo" />
+              </div>
             </div>
-            <div class="login">
-                <div>
-                    <i class="bi bi-person-circle"></i>
-                </div>
-                <p>Faça <a href="login-register/login.html"><strong>LOGIN</strong></a> ou<br> crie seu <a
-                        href="login-register/login.html"><strong>CADASTRO</strong></a></p>
+            <div class="input-container">
+              <input
+                type="text"
+                name="input-search cellphone"
+                id="input-search cellphone"
+                class="input-search cellphone"
+                placeholder="Busque aqui seu produto"
+              />
+              <img class="newlogo" src="assets/imgs/favicon.png" alt="Logo" />
             </div>
-            <div class="icons">
-                <nav>
-                    <ul>
-                        <i class="bi bi-headset"></i>
-                        <i class="bi bi-heart-fill"></i>
-                        <i class="bi bi-cart-fill"></i>
-                    </ul>
-                </nav>
-            </div>
+          </div>
         </div>
+        <div class="login">
+          <div>
+            <i class="bi bi-person-circle"></i>
+          </div>
+          <p>
+            Faça
+            <a href="login-register/login.html"><strong>LOGIN</strong></a>
+            ou<br />
+            crie seu
+            <a href="login-register/login.html"><strong>CADASTRO</strong></a>
+          </p>
+        </div>
+        <div class="icons">
+          <nav>
+            <ul>
+              <i class="bi bi-headset"></i>
+              <i class="bi bi-heart-fill"></i>
+              <i class="bi bi-cart-fill"></i>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
     <section class="downHeader">
-        <nav class="nav">
-            <ul class="ul">
-                <li>
-                    <div class="dropdown-toggle">
-                        Departamento <span class="arrow">&#9660;</span>
-                    </div>
-                    <ul class="dropdown">
-                        <li class="has-submenu">
-                            <a href="#">Hardware<span class="submenu-arrow">&#9654;</span></a>
-                            <ul class="submenu">
-                                <li><a href="#">Coolers</a></li>
-                                <li><a href="#">Dísco Rígido (hd)</a></li>
-                                <li><a href="#">Drivers</a></li>
-                                <li><a href="#">Fontes</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Periféricos</a></li>
-                        <li><a href="#">Computadores</a></li>
-                        <li><a href="#">Games</a></li>
-                        <li><a href="#">Celular & Smartphone</a></li>
-                        <li><a href="#">TV</a></li>
-                        <li><a href="#">Áudio</a></li>
-                        <li><a href="#">Projetores</a></li>
-                        <li><a href="#">Espaço Gamer</a></li>
-                        <li><a href="#">Escritório</a></li>
-                        <li><a href="#">Casa Inteligente</a></li>
-                        <li><a href="#">Tablets e Ipads</a></li>
-                        <li><a href="#">Câmeras</a></li>
-                        <li><a href="#">Energia</a></li>
-                        <li><a href="#">Conectividade</a></li>
-                    </ul>
-                </li>
-                <li>
-                    Oferta do dia
-                </li>
-                <li>Cupons
-                </li>
+      <nav class="nav">
+        <ul class="ul">
+          <li>
+            <div class="dropdown-toggle">
+              Departamento <span class="arrow">&#9660;</span>
+            </div>
+            <ul class="dropdown">
+              <li class="has-submenu">
+                <a href="#"
+                  >Hardware<span class="submenu-arrow">&#9654;</span></a
+                >
+                <ul class="submenu">
+                  <li><a href="#">Coolers</a></li>
+                  <li><a href="#">Dísco Rígido (hd)</a></li>
+                  <li><a href="#">Drivers</a></li>
+                  <li><a href="#">Fontes</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Periféricos</a></li>
+              <li><a href="#">Computadores</a></li>
+              <li><a href="#">Games</a></li>
+              <li><a href="#">Celular & Smartphone</a></li>
+              <li><a href="#">TV</a></li>
+              <li><a href="#">Áudio</a></li>
+              <li><a href="#">Projetores</a></li>
+              <li><a href="#">Espaço Gamer</a></li>
+              <li><a href="#">Escritório</a></li>
+              <li><a href="#">Casa Inteligente</a></li>
+              <li><a href="#">Tablets e Ipads</a></li>
+              <li><a href="#">Câmeras</a></li>
+              <li><a href="#">Energia</a></li>
+              <li><a href="#">Conectividade</a></li>
             </ul>
-        </nav>
+          </li>
+          <li>Oferta do dia</li>
+          <li>Cupons</li>
+        </ul>
+      </nav>
     </section>
 
     <main>
-        <section class="backgroundMain">
-            <section class="filter">
-                <i class="bi bi-funnel"></i>
-                <h1>Ordenar por:</h1>
-                <select name="filterPrice" id="filterPrice">
-                    <option value="precoCrecente">Preço Crescente</option>
-                    <option value="precoDecrescente">Preço Decrescente</option>
-                    <option value="maisAvaliados">Mais Avaliados</option>
-                    <option value="maisProcurados">Mais Procurados</option>
-                    <option value="promocoes">Promoções</option>
-                </select>
-                <select name="filterView" id="filterView">
-                    <option value="10">10 por página</option>
-                    <option value="20">20 por página</option>
-                    <option value="40">40 por página</option>
-                    <option value="60">60 por página</option>
-                    <option value="80">80 por página</option>
-                    <option value="100">100 por página</option>
-                </select>
-                <button class="btnFilter"><i class="bi bi-x-lg"></i></button>
-            </section>
-
-
-            <div class="containerCard">
-                <div class="row text-center">
-                    <div class="col-md-4 col-lg-4 col-xl-4 col-12 col-sm-6">
-                        <div class="card card-cascade card-ecommerce wider shadow mb-5" data-aos="zoom-in"
-                            data-aos-duration="1000">
-                            <div class="view view-cascade overlay text-center">
-                                <a href="#">
-                                    <img class="card-img-top"
-                                        src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
-                                        alt="">
-                                    <div class="mask rgba-white-slight"></div>
-                                </a>
-                            </div>
-                            <div class="card-body card-body-cascade">
-                                <div class="d-flex justify-content-between text-nowrap">
-                                    <a href="">Apple Watch 6</a>
-                                    <span class="stock-details">EM ESTOQUE</span>
-                                </div> <!-- Card Description-->
-                                <p class="price">R$1500</p> <!-- Card Rating-->
-                                <div class="product-card-footer">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <!-- Button trigger modal -->
-                                            <button type="button" class="btn add-to-card">Adicione ao Carrinho</button>
-                                        </div>
-                                        <div class="col-6">
-                                            <a class="btn view-btn" href="visualization/view.html">
-                                                Visualizar
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-4 col-xl-4 col-12 col-sm-6">
-                        <div class="card card-cascade card-ecommerce wider shadow mb-5" data-aos="zoom-in"
-                            data-aos-duration="1000">
-                            <div class="view view-cascade overlay text-center">
-                                <a href="#">
-                                    <img class="card-img-top"
-                                        src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
-                                        alt="">
-                                    <div class="mask rgba-white-slight"></div>
-                                </a>
-                            </div>
-                            <div class="card-body card-body-cascade">
-                                <div class="d-flex justify-content-between text-nowrap">
-                                    <a href="">Apple Watch 6</a>
-                                    <span class="stock-details">EM ESTOQUE</span>
-                                </div> <!-- Card Description-->
-                                <p class="price">R$1500</p> <!-- Card Rating-->
-                                <div class="product-card-footer">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <!-- Button trigger modal -->
-                                            <button type="button" class="btn add-to-card">ADICIONE AO CARRINHO</button>
-                                        </div>
-                                        <div class="col-6">
-                                            <a class="btn view-btn" href="visualization/view.html">
-                                                VISUALIZAR
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-4 col-xl-4 col-12 col-sm-6">
-                        <div class="card card-cascade card-ecommerce wider shadow mb-5" data-aos="zoom-in"
-                            data-aos-duration="1000">
-                            <div class="view view-cascade overlay text-center">
-                                <a href="#">
-                                    <img class="card-img-top"
-                                        src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
-                                        alt="">
-                                    <div class="mask rgba-white-slight"></div>
-                                </a>
-                            </div>
-                            <div class="card-body card-body-cascade">
-                                <div class="d-flex justify-content-between text-nowrap">
-                                    <a href="">Apple Watch 6</a>
-                                    <span class="stock-details">Em estoque</span>
-                                </div> <!-- Card Description-->
-                                <p class="price">R$1500</p> <!-- Card Rating-->
-                                <div class="product-card-footer">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <!-- Button trigger modal -->
-                                            <button type="button" class="btn add-to-card">Adicione ao carrinho</button>
-                                        </div>
-                                        <div class="col-6">
-                                            <a class="btn view-btn" href="visualization/view.html">
-                                                Visualizar
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <section class="backgroundMain">
+        <section class="filter">
+          <i class="bi bi-funnel"></i>
+          <h1>Ordenar por:</h1>
+          <select name="filterPrice" id="filterPrice">
+            <option value="precoCrecente">Preço Crescente</option>
+            <option value="precoDecrescente">Preço Decrescente</option>
+            <option value="maisAvaliados">Mais Avaliados</option>
+            <option value="maisProcurados">Mais Procurados</option>
+            <option value="promocoes">Promoções</option>
+          </select>
+          <select name="filterView" id="filterView">
+            <option value="10">10 por página</option>
+            <option value="20">20 por página</option>
+            <option value="40">40 por página</option>
+            <option value="60">60 por página</option>
+            <option value="80">80 por página</option>
+            <option value="100">100 por página</option>
+          </select>
+          <button class="btnFilter"><i class="bi bi-x-lg"></i></button>
         </section>
+
+        <div class="containerCard">
+          <div class="row text-center">
+            <div class="col-md-4 col-lg-4 col-xl-4 col-12 col-sm-6">
+              <div
+                class="card card-cascade card-ecommerce wider shadow mb-5"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+              >
+                <div class="view view-cascade overlay text-center">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                      alt=""
+                    />
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <div class="card-body card-body-cascade">
+                  <div class="d-flex justify-content-between text-nowrap">
+                    <a href="">Apple Watch 6</a>
+                    <span class="stock-details">EM ESTOQUE</span>
+                  </div>
+                  <!-- Card Description-->
+                  <p class="price">R$1500</p>
+                  <!-- Card Rating-->
+                  <div class="product-card-footer">
+                    <div class="row">
+                      <div class="col-6">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn add-to-card">
+                          Adicione ao Carrinho
+                        </button>
+                      </div>
+                      <div class="col-6">
+                        <a class="btn view-btn" href="visualization/view.html">
+                          Visualizar
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-xl-4 col-12 col-sm-6">
+              <div
+                class="card card-cascade card-ecommerce wider shadow mb-5"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+              >
+                <div class="view view-cascade overlay text-center">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                      alt=""
+                    />
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <div class="card-body card-body-cascade">
+                  <div class="d-flex justify-content-between text-nowrap">
+                    <a href="">Apple Watch 6</a>
+                    <span class="stock-details">EM ESTOQUE</span>
+                  </div>
+                  <!-- Card Description-->
+                  <p class="price">R$1500</p>
+                  <!-- Card Rating-->
+                  <div class="product-card-footer">
+                    <div class="row">
+                      <div class="col-6">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn add-to-card">
+                          ADICIONE AO CARRINHO
+                        </button>
+                      </div>
+                      <div class="col-6">
+                        <a class="btn view-btn" href="visualization/view.html">
+                          VISUALIZAR
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-xl-4 col-12 col-sm-6">
+              <div
+                class="card card-cascade card-ecommerce wider shadow mb-5"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+              >
+                <div class="view view-cascade overlay text-center">
+                  <a href="#">
+                    <img
+                      class="card-img-top"
+                      src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                      alt=""
+                    />
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <div class="card-body card-body-cascade">
+                  <div class="d-flex justify-content-between text-nowrap">
+                    <a href="">Apple Watch 6</a>
+                    <span class="stock-details">Em estoque</span>
+                  </div>
+                  <!-- Card Description-->
+                  <p class="price">R$1500</p>
+                  <!-- Card Rating-->
+                  <div class="product-card-footer">
+                    <div class="row">
+                      <div class="col-6">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn add-to-card">
+                          Adicione ao carrinho
+                        </button>
+                      </div>
+                      <div class="col-6">
+                        <a class="btn view-btn" href="visualization/view.html">
+                          Visualizar
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer-section">
-        <div class="container-footer">
-            <div class="footer-cta pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="cta-text">
-                                <h4>Localidade</h4>
-                                <span>1010 Avenue, sw 54321, chandigarh</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="fas fa-phone"></i>
-                            <div class="cta-text">
-                                <h4>Fale conosco!</h4>
-                                <span>9876543210 0</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="far fa-envelope-open"></i>
-                            <div class="cta-text">
-                                <h4>E-mail </h4>
-                                <span>mail@info.com</span>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container-footer">
+        <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="cta-text">
+                  <h4>Localidade</h4>
+                  <span>Rua das andorinhas, 87 Sala 02, 03 - Novo Mundo, Curitiba</span>
                 </div>
+              </div>
             </div>
-            <div class="footer-content pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 mb-50">
-                        <div class="footer-widget">
-                            <div class="footer-logo">
-                                <a href="index.html"><img src="assets/imgs/logo.png" class="img-fluid" alt="logo"></a>
-                            </div>
-                            <div class="footer-text">
-                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor
-                                    incididuntut consec tetur adipisicing
-                                    elit,Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div class="footer-social-icon">
-                                <span>Siga nossas Redes Sociais</span>
-                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
-                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Links Rápidos</h3>
-                            </div>
-                            <ul>
-                                <li><a href="#">Início</a></li>
-                                <li><a href="#">Sobre</a></li>
-                                <li><a href="#">Serviços</a></li>
-                                <li><a href="#">Contato</a></li>
-                                <li><a href="#">Sobre nós</a></li>
-                                <li><a href="#">Últimas Notícias</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Inscreva-se</h3>
-                            </div>
-                            <div class="footer-text mb-25">
-                                <p>Não deixe de se inscrever em nossos novos feeds, por favor, preencha o formulário
-                                    abaixo.</p>
-                            </div>
-                            <div class="subscribe-form">
-                                <form action="#">
-                                    <input type="text" placeholder="Endereço de E-mail">
-                                    <button><i class="fab fa-telegram-plane"></i></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-phone"></i>
+                <div class="cta-text">
+                  <h4>Fale conosco!</h4>
+                  <span>(41) 99749-2373</span>
                 </div>
+              </div>
             </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="far fa-envelope-open"></i>
+                <div class="cta-text">
+                  <h4>E-mail</h4>
+                  <span>mail@info.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="copyright-area">
-            <div class="container-footer-copyright">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
-                        <div class="copyright-text">
-                            <p>Copyright &copy; 2024, Todos os direitos reservados a <a href="">Re.nome Store</a></p>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                        <div class="footer-menu">
-                            <ul>
-                                <li><a href="#">Início</a></li>
-                                <li><a href="#">Termos</a></li>
-                                <li><a href="#">Privacidade</a></li>
-                                <li><a href="#">Política</a></li>
-                                <li><a href="#">Contato</a></li>
-                            </ul>
-                        </div>
-                    </div>
+        <div class="footer-content pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 mb-50">
+              <div class="footer-widget">
+                <div class="footer-logo">
+                  <a href="index.html"
+                    ><img
+                      src="assets/imgs/logo.png"
+                      class="img-fluid"
+                      alt="logo"
+                  /></a>
                 </div>
+                <div class="footer-text">
+                  <p>
+                    Lorem ipsum dolor sit amet, consec tetur adipisicing elit,
+                    sed do eiusmod tempor incididuntut consec tetur adipisicing
+                    elit,Lorem ipsum dolor sit amet.
+                  </p>
+                </div>
+                <div class="footer-social-icon">
+                  <span>Siga nossas Redes Sociais</span>
+                  <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                  <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                  <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                </div>
+              </div>
             </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Links Rápidos</h3>
+                </div>
+                <ul>
+                  <li><a href="#">Início</a></li>
+                  <li><a href="#">Sobre</a></li>
+                  <li><a href="#">Serviços</a></li>
+                  <li><a href="#">Contato</a></li>
+                  <li><a href="#">Sobre nós</a></li>
+                  <li><a href="#">Últimas Notícias</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Inscreva-se</h3>
+                </div>
+                <div class="footer-text mb-25">
+                  <p>
+                    Não deixe de se inscrever em nossos novos feeds, por favor,
+                    preencha o formulário abaixo.
+                  </p>
+                </div>
+                <div class="subscribe-form">
+                  <form action="#">
+                    <input type="text" placeholder="Endereço de E-mail" />
+                    <button><i class="fab fa-telegram-plane"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="copyright-area">
+        <div class="container-footer-copyright">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+              <div class="copyright-text">
+                <p>
+                  Copyright &copy; 2024, Todos os direitos reservados a
+                  <a href="">Re.nome Store</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="#">Início</a></li>
+                  <li><a href="#">Termos</a></li>
+                  <li><a href="#">Privacidade</a></li>
+                  <li><a href="#">Política</a></li>
+                  <li><a href="#">Contato</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
