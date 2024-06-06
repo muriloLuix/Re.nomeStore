@@ -37,49 +37,33 @@
   <body>
     <header>
       <div class="container_header">
-        <div>
-          <div id="menu" class="menu">
-            <i class="bi-list bi"></i>
-          </div>
-          <div id="sidebar" class="sidebar">
-            <ul>
-              <li><i class="bi bi-person"></i> Minha conta</li>
-              <li><i class="bi bi-person-check"></i> Meus dados</li>
-              <li><i class="bi bi-bag-check"></i> Meus pedidos</li>
-              <li><i class="bi bi-star"></i> Avaliações</li>
-              <li class><i class="bi bi-heart"></i> Favoritos</li>
-            </ul>
-          </div>
-          <div class="container">
-            <img class="logo" src="assets/imgs/logo.png" alt="logo" />
-            <div class="input">
-              <div class="input-container">
-                <input
-                  type="text"
-                  name="input-search"
-                  id="input-search"
-                  class="input-search"
-                  placeholder="Busque aqui seu produto"
-                />
-                <img class="newlogo" src="assets/imgs/favicon.png" alt="Logo" />
-              </div>
-            </div>
-            <div class="input-container">
-              <input
-                type="text"
-                name="input-search cellphone"
-                id="input-search cellphone"
-                class="input-search cellphone"
-                placeholder="Busque aqui seu produto"
-              />
-              <img class="newlogo" src="assets/imgs/favicon.png" alt="Logo" />
-            </div>
-          </div>
+        <div id="menu" class="menu">
+          <i class="bi-list bi"></i>
+        </div>
+        <div id="sidebar" class="sidebar">
+          <ul>
+            <li><i class="bi bi-person"></i> Minha conta</li>
+            <li><i class="bi bi-person-check"></i> Meus dados</li>
+            <li><i class="bi bi-bag-check"></i> Meus pedidos</li>
+            <li><i class="bi bi-star"></i> Avaliações</li>
+            <li><i class="bi bi-heart"></i> Favoritos</li>
+          </ul>
+        </div>
+        <div class="logo">
+          <img src="assets/imgs/logo.png" alt="logo" />
+        </div>
+        <div class="search-container">
+          <input
+            type="text"
+            name="input-search"
+            id="input-search"
+            class="input-search"
+            placeholder="Busque aqui seu produto"
+          />
+          <img class="newlogo" src="assets/imgs/favicon.png" alt="Logo" />
         </div>
         <div class="login">
-          <div>
-            <i class="bi bi-person-circle"></i>
-          </div>
+          <i class="bi bi-person-circle"></i>
           <p>
             Faça
             <a href="login-register/login.html"><strong>LOGIN</strong></a>
@@ -102,10 +86,8 @@
     <section class="downHeader">
       <nav class="nav">
         <ul class="ul">
-          <li>
-            <div class="dropdown-toggle">
-              Departamento <span class="arrow">&#9660;</span>
-            </div>
+          <li class="dropdown-toggle">
+            Departamento <span class="arrow">&#9660;</span>
             <ul class="dropdown">
               <li class="has-submenu">
                 <a href="#"
@@ -139,7 +121,6 @@
         </ul>
       </nav>
     </section>
-
     <main>
       <section class="backgroundMain">
         <section class="filter">
@@ -164,134 +145,32 @@
         </section>
 
         <div class="containerCard">
-          <div class="row text-center">
-            <div class="col-md-4 col-lg-4 col-xl-4 col-12 col-sm-6">
-              <div
-                class="card card-cascade card-ecommerce wider shadow mb-5"
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-              >
-                <div class="view view-cascade overlay text-center">
-                  <a href="#">
-                    <img
-                      class="card-img-top"
-                      src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
-                      alt=""
-                    />
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-                <div class="card-body card-body-cascade">
-                  <div class="d-flex justify-content-between text-nowrap">
-                    <a href="">Apple Watch 6</a>
-                    <span class="stock-details">EM ESTOQUE</span>
-                  </div>
-                  <!-- Card Description-->
-                  <p class="price">R$1500</p>
-                  <!-- Card Rating-->
-                  <div class="product-card-footer">
-                    <div class="row">
-                      <div class="col-6">
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn add-to-card">
-                          Adicione ao Carrinho
-                        </button>
-                      </div>
-                      <div class="col-6">
-                        <a class="btn view-btn" href="visualization/view.html">
-                          Visualizar
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div class="card">
+            <div class="view overlay">
+              <a href="#">
+                <img
+                  class="card-img-top"
+                  src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
+                  alt=""
+                />
+                <div class="mask rgba-white-slight"></div>
+              </a>
             </div>
-            <div class="col-md-4 col-lg-4 col-xl-4 col-12 col-sm-6">
-              <div
-                class="card card-cascade card-ecommerce wider shadow mb-5"
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-              >
-                <div class="view view-cascade overlay text-center">
-                  <a href="#">
-                    <img
-                      class="card-img-top"
-                      src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
-                      alt=""
-                    />
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-                <div class="card-body card-body-cascade">
-                  <div class="d-flex justify-content-between text-nowrap">
-                    <a href="">Apple Watch 6</a>
-                    <span class="stock-details">EM ESTOQUE</span>
-                  </div>
-                  <!-- Card Description-->
-                  <p class="price">R$1500</p>
-                  <!-- Card Rating-->
-                  <div class="product-card-footer">
-                    <div class="row">
-                      <div class="col-6">
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn add-to-card">
-                          ADICIONE AO CARRINHO
-                        </button>
-                      </div>
-                      <div class="col-6">
-                        <a class="btn view-btn" href="visualization/view.html">
-                          VISUALIZAR
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <a href="#">Apple Watch 6</a>
+                <span class="stock-details">EM ESTOQUE</span>
               </div>
-            </div>
-            <div class="col-md-4 col-lg-4 col-xl-4 col-12 col-sm-6">
-              <div
-                class="card card-cascade card-ecommerce wider shadow mb-5"
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-              >
-                <div class="view view-cascade overlay text-center">
-                  <a href="#">
-                    <img
-                      class="card-img-top"
-                      src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80"
-                      alt=""
-                    />
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-                <div class="card-body card-body-cascade">
-                  <div class="d-flex justify-content-between text-nowrap">
-                    <a href="">Apple Watch 6</a>
-                    <span class="stock-details">Em estoque</span>
-                  </div>
-                  <!-- Card Description-->
-                  <p class="price">R$1500</p>
-                  <!-- Card Rating-->
-                  <div class="product-card-footer">
-                    <div class="row">
-                      <div class="col-6">
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn add-to-card">
-                          Adicione ao carrinho
-                        </button>
-                      </div>
-                      <div class="col-6">
-                        <a class="btn view-btn" href="visualization/view.html">
-                          Visualizar
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <p class="price">R$1500</p>
+              <div class="product-card-footer">
+                <button class="btn add-to-cart">Adicione ao Carrinho</button>
+                <a class="btn view-btn" href="visualization/view.html"
+                  >Visualizar</a
+                >
               </div>
             </div>
           </div>
+          <!-- Repita o bloco de card conforme necessário -->
         </div>
       </section>
     </main>
@@ -305,7 +184,10 @@
                 <i class="fas fa-map-marker-alt"></i>
                 <div class="cta-text">
                   <h4>Localidade</h4>
-                  <span>Rua das andorinhas, 87 Sala 02, 03 - Novo Mundo, Curitiba</span>
+                  <span
+                    >Rua das andorinhas, 87 Sala 02, 03 - Novo Mundo,
+                    Curitiba</span
+                  >
                 </div>
               </div>
             </div>

@@ -54,45 +54,33 @@
   <body>
     <header>
       <div class="container_header">
-        <div>
-          <div id="menu" class="menu">
-            <i class="bi-list bi"></i>
-          </div>
-          <div id="sidebar" class="sidebar">
-            <ul>
-              <li><i class="bi bi-person"></i> Minha conta</li>
-              <li><i class="bi bi-person-check"></i> Meus dados</li>
-              <li><i class="bi bi-bag-check"></i> Meus pedidos</li>
-              <li><i class="bi bi-star"></i> Avaliações</li>
-              <li class><i class="bi bi-heart"></i> Favoritos</li>
-            </ul>
-          </div>
-          <div class="container">
-            <a href="../index.html"
-              ><img class="logo" src="../assets/imgs/logo.png" alt="logo"
-            /></a>
-            <div class="input">
-              <div class="input-container">
-                <input
-                  type="text"
-                  name="input-search"
-                  id="input-search"
-                  class="input-search"
-                  placeholder="Busque aqui seu produto"
-                />
-                <img
-                  class="newlogo"
-                  src="../assets/imgs/favicon.png"
-                  alt="Logo"
-                />
-              </div>
-            </div>
-          </div>
+        <div id="menu" class="menu">
+          <i class="bi-list bi"></i>
+        </div>
+        <div id="sidebar" class="sidebar">
+          <ul>
+            <li><i class="bi bi-person"></i> Minha conta</li>
+            <li><i class="bi bi-person-check"></i> Meus dados</li>
+            <li><i class="bi bi-bag-check"></i> Meus pedidos</li>
+            <li><i class="bi bi-star"></i> Avaliações</li>
+            <li><i class="bi bi-heart"></i> Favoritos</li>
+          </ul>
+        </div>
+        <div class="logo">
+          <img src="../assets/imgs/logo.png" alt="logo" />
+        </div>
+        <div class="search-container">
+          <input
+            type="text"
+            name="input-search"
+            id="input-search"
+            class="input-search"
+            placeholder="Busque aqui seu produto"
+          />
+          <img class="newlogo" src="../assets/imgs/favicon.png" alt="Logo" />
         </div>
         <div class="login">
-          <div>
-            <i class="bi bi-person-circle"></i>
-          </div>
+          <i class="bi bi-person-circle"></i>
           <p>
             Faça
             <a href="../login-register/login.html"><strong>LOGIN</strong></a>
@@ -115,10 +103,8 @@
     <section class="downHeader">
       <nav class="nav">
         <ul class="ul">
-          <li>
-            <div class="dropdown-toggle">
-              Departamento <span class="arrow">&#9660;</span>
-            </div>
+          <li class="dropdown-toggle">
+            Departamento <span class="arrow">&#9660;</span>
             <ul class="dropdown">
               <li class="has-submenu">
                 <a href="#"
@@ -141,8 +127,8 @@
               <li><a href="#">Espaço Gamer</a></li>
               <li><a href="#">Escritório</a></li>
               <li><a href="#">Casa Inteligente</a></li>
-              <li><a href="#">Tablets, Ipads e E-readers</a></li>
-              <li><a href="#">Câmeras e Drones</a></li>
+              <li><a href="#">Tablets e Ipads</a></li>
+              <li><a href="#">Câmeras</a></li>
               <li><a href="#">Energia</a></li>
               <li><a href="#">Conectividade</a></li>
             </ul>
@@ -277,7 +263,7 @@
               data-bs-parent="#accordionFlushExample"
             >
               <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
+                Placeholder contelnt for this accordion, which is intended to
                 demonstrate the <code>.accordion-flush</code> class. This is the
                 first item's accordion body.
               </div>
